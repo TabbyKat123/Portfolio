@@ -113,3 +113,8 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 
 }
+
+//copright function
+
+
+document.querySelector('#copyright-year').textContent = newDate().getFullYear();
