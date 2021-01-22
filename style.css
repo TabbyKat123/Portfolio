@@ -70,7 +70,13 @@ body, html{
 }
 
 .txt-type{
-    padding-top: 5px ;
+    padding-top: 10px;
+    font-size: 50px;
+    color: darkblue;
+    top: 60%;
+    position: absolute;
+    width: 100%;
+    padding-left: 47%;
 }
 
 .section{
@@ -106,6 +112,16 @@ body, html{
     /*color: #fff;*/
     background-color: transparent;
     padding: 20px;
+}
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: medium;
+    font-size: 70px;
+    letter-spacing: 8px;
 }
   
 @media(min-width: 1200px){
