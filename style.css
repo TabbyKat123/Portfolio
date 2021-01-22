@@ -5,12 +5,13 @@ body, html{
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
+
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .navbar{
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     width: 100%;
     height: 60px;
@@ -26,6 +27,7 @@ body, html{
 .navbar ul li{
     margin: 0 1rem;
     padding: 1rem;
+    font-size: 26px;
    
 }
 
@@ -37,6 +39,7 @@ body, html{
 
 .navbar ul li a:hover{
     color: skyblue;
+
 }
 
 .pimg1, .pimg2, .pimg3{
@@ -66,6 +69,10 @@ body, html{
     min-height: 400px;
 }
 
+.txt-type{
+    padding-top: 5px ;
+}
+
 .section{
     text-align: center;
     padding: 50px 80px;
@@ -90,18 +97,41 @@ body, html{
     color: #000;
     font-size: 27px;
     letter-spacing: 8px;
-    text-transform: uppercase;
+    text-transform: capitalize ;
+    
 }
 
 .ptext .border{
     background-color: #111;
-    color: #fff;
+    /*color: #fff;*/
+    background-color: transparent;
     padding: 20px;
+}
+  
+@media(min-width: 1200px){
+    .ptext .border{
+        font-size: 5rem;
+    }
+}
+
+  
+@media(max-width: 800px){
+    .ptext .border{
+        font-size: 3rem;
+    }
 }
 
 .ptext .border.trans{
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #111;
+    color:#fff;
 }
+
+/*.carousel-item{
+    height: 200px;
+    width: 200px;
+    background: #777;
+}*/
 
 /*@media(max-width:568px){
     .pimg1,.pimg2, .pimg3{
