@@ -55,17 +55,17 @@ body, html{
 }
 
 .pimg1 {
-    background-image: url('images/evening.jpg');
+    background-image: url('images/lookingagandyside.jpg');
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url('images/nightsky.jpg');
+    background-image: url('images/lookingagandy.jpg');
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url('images/sky.jpg');
+    background-image: url('images/lookingagandy1short\ -\ Copy.jpg');
     min-height: 400px;
 }
 
@@ -76,7 +76,7 @@ body, html{
     top: 60%;
     position: absolute;
     width: 100%;
-    padding-left: 47%;
+    padding-left: 40%;
     letter-spacing: 6px;
 }
 
@@ -108,6 +108,7 @@ body, html{
     
 }
 
+
 .ptext .border{
     background-color: #111;
     /*color: #fff;*/
@@ -126,16 +127,17 @@ body, html{
 }
   
 @media(min-width: 1200px){
-    .ptext .ptext1 .border{
-        font-size: 5rem;
+    .ptext .ptext1 .border li a{
+        font-size: 12rem;
     }
 }
 
   
 @media(max-width: 800px){
-    .ptext .ptext1 .border{
-        font-size: 3rem;
+    .ptext .ptext1 .border li a {
+        font-size: 6rem;
     }
+   
 }
 
 .ptext .border.trans{
