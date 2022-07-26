@@ -1,5 +1,6 @@
 body, html{
     height: 100%;
+    width: 100%;
     margin: 0;
     font-size: 15px;
     font-weight: 400;
@@ -37,11 +38,11 @@ body, html{
 .navbar ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #f4f4f4;
+    color: #808080;
 }
 
 .navbar ul li a:hover{
-    color: skyblue;
+    color: #f4f4f4;
 
 }
 
@@ -78,8 +79,9 @@ body, html{
     color: darkblue;
     top: 60%;
     position: absolute;
-    width: 100%;
+    /*width: 30%;*/
     padding-left: 40%;
+    padding-right: 20%;
     letter-spacing: 6px;
 }
 
@@ -133,18 +135,22 @@ body, html{
     .ptext .ptext1 .border li a{
         font-size: 12rem;
     }
+    
 }
 
   
-@media(max-width: 800px){
+@media(max-width: 568px){
     .ptext .ptext1 .border li a {
-        font-size: 6rem;
+        font-size: 24rem;
+    }
+    .pimg1,.pimg2, .pimg3{
+        background-attachment: scroll;
     }
    
 }
 
 .ptext .border.trans{
-    /*background-color: transparent;*/
+    background-color: transparent;
     background-color: #111;
     color:#fff;
 }
@@ -238,14 +244,10 @@ body, html{
     z-index: 1;
 }
 
-/*.carousel-item{
-    height: 200px;
-    width: 200px;
-    background: #777;
-}*/
 
-@media(max-width:568px){
+
+/*@media(max-width:568px){
     .pimg1,.pimg2, .pimg3{
         background-attachment: scroll;
     }
-}
+}*/
