@@ -1,6 +1,6 @@
 body, html{
     height: 100%;
-    width: 100%;
+    width: 100vw;
     margin: 0;
     font-size: 15px;
     font-weight: 400;
@@ -15,7 +15,7 @@ body, html{
     top: 0;
     z-index: 2;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     
     /*background: rgba(0,0,0,0.7);*/
@@ -214,7 +214,7 @@ body, html{
   
   .pic-ctn {
     position: relative;
-    width: 100vw;
+    width: 70vw;
     height: 300px;
     margin-top: 15vh;
   }
